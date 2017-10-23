@@ -1,8 +1,7 @@
 # Extended Kalman Filter Project
 
 ### Udacity Self-Driving Car Engineer Nanodegree Program
-###Stewart Teaze
-####October, 2017
+#### Stewart Teaze; October, 2017
 
 In this project a Kalman Filter was implemented and utilized to estimate the state of a moving object of interest, with noisy lidar and radar input measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
