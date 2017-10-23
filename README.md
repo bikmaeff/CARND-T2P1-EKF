@@ -35,30 +35,15 @@ The files that were modified to complete the project were src/FusionEKF.cpp, src
 
 The provided file main.cpp, was not modified permanently in any way (temporary output statements were added to aid in debugging the implementation, but these statements have been removed from the final project submission version of main.cpp).
 
-Here is the main protocol that main.cpp uses for uWebSocketIO in communicating with the simulator:
-
-INPUT: values provided by the simulator to the c++ program
-
-["sensor_measurement"] => the measurement that the simulator observed (either lidar or radar)
-
-OUTPUT: values provided by the c++ program to the simulator
-
-["estimate_x"] <= kalman filter estimated position x
-["estimate_y"] <= kalman filter estimated position y
-["rmse_x"]
-["rmse_y"]
-["rmse_vx"]
-["rmse_vy"]
-
 ## Output Screen Captures
 
 This screen capture of the Simulator program window, shown after completion of a test run , made against the final version of the submitted project source/object code, and made with the provided test data, show the final accumulated RMSE calculated values within the required tolerance:
 
-![Screenshot from 2017-10-21 14-16-59](\screenCaps\Screenshot from 2017-10-21 14-16-59.png)
+![Screenshot from 2017-10-21 14-16-59](screenCaps\Screenshot from 2017-10-21 14-16-59.png)
 
 This following screen capture of the Simulator program window, shown after completion of a prior to final test run with the provided test data, <u>made during a test run before the final version was completed</u>, and with a mis-calculation still remaining in the "normalization" of the y(1) parameter, after the y - z - HOfXPrime calculation in the UpdateEKF() function in the kalman_filter.cpp file (the y(1) angle value was being "under-normalized" by adding or subtracting PI, rather than 2 * PI), show the final calculated X, Y, and RMSE values not within the required tolerance, and with abnormalities in the estimated (green) triangles, occurring briefly after the vehicle passes back under the y=0 axis.  This anomaly was corrected in the final submitted version of the project code, and output (as seen in the first screen capture above):
 
-![Screenshot from 2017-10-21 14-06-54](C:\Users\Stewartt\Documents\GitHub\CARND-T2P1-EKF\screenCaps\Screenshot from 2017-10-21 14-06-54.png)
+![Screenshot from 2017-10-21 14-06-54](screenCaps\Screenshot from 2017-10-21 14-06-54.png)
 
 ### Basic Build Instructions
 
