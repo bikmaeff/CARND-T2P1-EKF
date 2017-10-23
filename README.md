@@ -35,6 +35,8 @@ The files that were modified to complete the project were src/FusionEKF.cpp, src
 
 The provided file main.cpp, was not modified permanently in any way (temporary output statements were added to aid in debugging the implementation, but these statements have been removed from the final project submission version of main.cpp).
 
+The provided input file used to drive the simulation to interact with the Kalman Filter program, is included in the /data sub-directory of this project.
+
 ## Output Screen Captures
 
 This screen capture of the Simulator program window, shown after completion of a test run , made against the final version of the submitted project source/object code, and made with the provided test data, show the final accumulated RMSE calculated values within the required tolerance:
