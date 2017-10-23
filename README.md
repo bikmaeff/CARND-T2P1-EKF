@@ -39,11 +39,11 @@ The provided file main.cpp, was not modified permanently in any way (temporary o
 
 This screen capture of the Simulator program window, shown after completion of a test run , made against the final version of the submitted project source/object code, and made with the provided test data, show the final accumulated RMSE calculated values within the required tolerance:
 
-![Screenshot from 2017-10-21 14-16-59](screenCaps\Screenshot from 2017-10-21 14-16-59.png)
+![Screenshot from 2017-10-21 14-16-59](screenCaps\shot2.png)
 
 This following screen capture of the Simulator program window, shown after completion of a prior to final test run with the provided test data, <u>made during a test run before the final version was completed</u>, and with a mis-calculation still remaining in the "normalization" of the y(1) parameter, after the y - z - HOfXPrime calculation in the UpdateEKF() function in the kalman_filter.cpp file (the y(1) angle value was being "under-normalized" by adding or subtracting PI, rather than 2 * PI), show the final calculated X, Y, and RMSE values not within the required tolerance, and with abnormalities in the estimated (green) triangles, occurring briefly after the vehicle passes back under the y=0 axis.  This anomaly was corrected in the final submitted version of the project code, and output (as seen in the first screen capture above):
 
-![Screenshot from 2017-10-21 14-06-54](screenCaps\Screenshot from 2017-10-21 14-06-54.png)
+![Screenshot from 2017-10-21 14-06-54](screenCaps\shot1.png)
 
 ### Basic Build Instructions
 
