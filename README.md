@@ -29,7 +29,7 @@ The files that were modified to complete the project were src/FusionEKF.cpp, src
 
 ![algorithm-generalization-900](screenCaps/algorithm-generalization-900.jpg)
 
-**tools.cpp and tools.h -**
+**tools.cpp and tools.h -** Contains helper function CalculateRMSE().
 
 ## Provided Files
 
