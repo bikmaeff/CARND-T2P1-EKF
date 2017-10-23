@@ -28,7 +28,7 @@ The files that were modified to complete the project were src/FusionEKF.cpp, src
 
 **kalman_filter.cpp & kalman_filter.h -** These files compose the C++ Class KalmanFilter(), which define a) the class object definitions of the general kalman filter state and covariance matrices, and b) the Predict(), and Update() (or UpdateEKF()) functions, invoked by FusionEKF::ProcessMeasurement, each time a measure package is received from the simulator.   Predict() implements the equations shown in the **Prediction** steps in the left column of the image below (the same Predict() processing is performed when both LIDAR and RADAR measurement packages are received).  Update() implements the **Measurement Update** steps shown in the left column of the image below (and is called for only the LIDAR measurement updates).  UpdateEKF() implements the modified **Measurement Update** steps for the Extended Kalman Filter implementation - modified as described by the notes in the right column of the image below (and is called only for RADAR measurement updates):
 
-![algorithm-generalization-900](C:\Users\Stewartt\Documents\GitHub\CARND-T2P1-EKF\algorithm-generalization-900.jpg)
+![algorithm-generalization-900](algorithm-generalization-900.jpg)
 
 **tools.cpp and tools.h -**
 
